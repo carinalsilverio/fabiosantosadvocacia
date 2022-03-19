@@ -16,7 +16,10 @@ function scrollToIdOnClick(event) {
         top: to,
         behavior: "smooth",
     })
-
- 
-
 }
+
+
+function set(){
+    $(window).scrollTop(0);
+}
+$(window).bind('scroll', setTopo);

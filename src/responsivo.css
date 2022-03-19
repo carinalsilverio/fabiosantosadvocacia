@@ -1,0 +1,70 @@
+@media only screen and (min-width: 412px) and (max-width: 914px) {
+    
+.imagem-areas-atuacao, .imagem-atendimento {
+    max-width: 57.125rem;
+}
+
+
+@media only screen and (min-width: 412px) and (max-width: 914px) {
+    .fonte-texto, .imagem-areas-atuacao, .imagem-atendimento {
+      margin-left: 0;     
+}
+.imagem-areas-atuacao, .imagem-atendimento {
+    max-width: 25rem;
+    margin-left: 0.3rem;
+}
+.areas {
+    margin-top: 0;
+    margin-left: -52rem;
+}
+
+.formulario {
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0;
+}
+.contato-direto {
+    margin-right: 0;  
+    margin-top: 0rem;
+    
+}
+.contato-direto-links {
+    width: auto;
+}
+}
+
+@media only screen and (min-width: 763px) and (max-width: 923px) {
+    
+   .imagem-areas-atuacao, .imagem-atendimento {
+        max-width: 57,6875rem;
+    }  
+
+   .fonte-texto, .imagem-areas-atuacao, .imagem-atendimento {
+        margin-left: 0;     
+    }
+
+    .imagem-areas-atuacao, .imagem-atendimento {
+        max-width: 25rem;
+        margin-left: 12rem;
+    }
+    .areas {
+        margin-top: 0;     
+        margin-left: -44rem;
+        margin-bottom: 0;       
+    }
+    
+    .formulario {
+        width: 50%;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .contato-direto {
+        margin-right: 0;  
+        margin-top: 0rem;
+        
+    }
+    .contato-direto-links {
+        width: auto;
+    }    
+}
+}

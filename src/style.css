@@ -20,6 +20,11 @@ body {
     color: #fff;
 }
 
+.logo {
+	width: 6rem;
+	height:6rem;
+}
+
 /*Carrossel*/
 
 .imagem-carrossel-1, .imagem-carrossel-2 {
