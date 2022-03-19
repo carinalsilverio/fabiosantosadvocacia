@@ -19,7 +19,3 @@ function scrollToIdOnClick(event) {
 }
 
 
-function set(){
-    $(window).scrollTop(0);
-}
-$(window).bind('scroll', setTopo);

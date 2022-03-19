@@ -1,5 +1,7 @@
 @media only screen and (min-width: 412px) and (max-width: 914px) {
-    
+html, body {
+    overflow-x: hidden;
+}
 .imagem-areas-atuacao, .imagem-atendimento {
     max-width: 57.125rem;
 }
