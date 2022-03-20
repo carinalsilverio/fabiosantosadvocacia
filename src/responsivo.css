@@ -1,42 +1,44 @@
-@media only screen and (min-width: 412px) and (max-width: 914px) {
-html, body {
-    overflow-x: hidden;
-}
-.imagem-areas-atuacao, .imagem-atendimento {
-    max-width: 57.125rem;
-}
-
-
-@media only screen and (min-width: 412px) and (max-width: 914px) {
+/*@media only screen and (min-width: 412px) and (max-width: 914px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .imagem-areas-atuacao, .imagem-atendimento {
+        max-width: 57.125rem;
+    }
     .fonte-texto, .imagem-areas-atuacao, .imagem-atendimento {
-      margin-left: 0;     
+        margin-left: 0;     
 }
-.imagem-areas-atuacao, .imagem-atendimento {
-    max-width: 25rem;
-    margin-left: 0.3rem;
+    .imagem-areas-atuacao, .imagem-atendimento {
+        max-width: 25rem;
+        margin-left: 10rem;
+        margin-bottom:0;
 }
-.areas {
-    margin-top: 0;
-    margin-left: -52rem;
 }
-
-.formulario {
-    width: 50%;
-    margin-left: 0;
-    margin-top: 0;
-}
-.contato-direto {
-    margin-right: 0;  
-    margin-top: 0rem;
-    
-}
-.contato-direto-links {
-    width: auto;
-}
+    .areas {
+        margin-top: 0;
+        margin-left: -46rem;
+        margin-bottom:0;
 }
 
-@media only screen and (min-width: 763px) and (max-width: 923px) {
+    .formulario {
+        width: 50%;
+        margin-left: 4.5rem;
+        margin-top: 0;
+    }
+    .contato-direto {
+        margin-right: 1rem;  
     
+        
+    }
+    .contato-direto-links {
+        width: auto;
+    }  */  
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    html, body {
+        overflow-x: hidden;
+    }
+
    .imagem-areas-atuacao, .imagem-atendimento {
         max-width: 57,6875rem;
     }  
@@ -69,4 +71,50 @@ html, body {
         width: auto;
     }    
 }
+
+@media only screen and (max-width: 787px) {
+    html, body {
+        overflow-x: hidden;
+    }    
+
+   .fonte-texto, .imagem-areas-atuacao, .imagem-atendimento {
+        margin-left: 0;             
+    }
+
+    .imagem-areas-atuacao, .imagem-atendimento {
+        max-width: 20rem;
+        margin: 0 0 0 2.5rem;        
+    }
+
+    .areas {
+        margin-top: 2rem;     
+        margin-left: -50rem;        
+        margin-bottom: 0;       
+    }
+
+    .exibir {
+        max-width: 19rem;
+    }
+    
+    .formulario {
+        width: 85%;
+        margin-left: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 20rem;
+    }
+
+    .contato-direto {
+        width: 80%;
+        margin: 25rem 0 0 2rem;
+        float: left;
+        position: absolute;
+}   
+    .contato-direto-links {
+        width: auto;
+    } 
+    
+    .icones-contato {
+        margin-top: 0;
+    }
+
 }
