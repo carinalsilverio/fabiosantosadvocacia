@@ -37,6 +37,10 @@
 @media only screen and (min-width: 788px) and (max-width: 979px) {
     html, body {
         overflow-x: hidden;
+    }  
+    
+    .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
+        height: 15rem;
     }
 
    .imagem-areas-atuacao, .imagem-atendimento {
@@ -75,7 +79,15 @@
 @media only screen and (max-width: 787px) {
     html, body {
         overflow-x: hidden;
-    }    
+    }   
+    
+    .container{
+        width: 18rem;
+    }
+
+    .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
+        height: 20rem;
+    }
 
    .fonte-texto, .imagem-areas-atuacao, .imagem-atendimento {
         margin-left: 0;             
@@ -83,7 +95,7 @@
 
     .imagem-areas-atuacao, .imagem-atendimento {
         max-width: 20rem;
-        margin: 0 0 0 2.5rem;        
+        margin-left: 1.7rem;  
     }
 
     .areas {
