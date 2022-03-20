@@ -68,7 +68,7 @@ body {
 }
 
 .card-cor-fundo{
-	background: linear-gradient(#999595, #bdb8b8);		 /*#c7c0b8; /*#FFEFDB*/	
+	background: linear-gradient(#999595, #bdb8b8);		
 }
 
 .estilo-borda {
@@ -141,7 +141,7 @@ details[open] summary:after {
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px #000000; /*sombra da imagem*/		
 	display: block;
-	height: 18.75rem;
+	max-height: 17.1875rem;
 	max-width: 20rem;
 	padding: 0.625rem;
 	opacity: 1;
@@ -164,22 +164,25 @@ details[open] summary:after {
 /*Atendimento*/
 
 .atendimento{
-	/*background: linear-gradient(#888888, #FEFEFE);	*/
 	padding: 3em 0;	
 	margin-bottom: 0rem;
 }
 
-.imagem-equipe,.imagem-atendimento {
+.imagem-atendimento, .imagem-equipe {
 	border-radius: 32px;
 	display: block;
-	height: 18.75rem;
+	max-height: 18.75rem;
 	margin: auto; 	
 	padding: 0.625rem;
 	margin-bottom: 0rem;
+	max-width: 30rem;
 }
 
 /*Equipe*/
 
+.imagem-equipe {
+	max-width: 25rem;
+}
 
 /*Contatos*/
 
@@ -209,7 +212,7 @@ details[open] summary:after {
   height: 2.1875rem;
   border-radius: 10px;
   font-size: 1.5rem;
- border: 2px solid #888585;  
+  border: 2px solid #888585;  
 }
 
 .icones-contato:hover {
