@@ -12,6 +12,7 @@ body {
 }
 
 /*Nav*/
+
 .navbar-light .navbar-brand {
     color: #fff;
 }
@@ -27,10 +28,10 @@ body {
 
 /*Carrossel*/
 
-.imagem-carrossel-1, .imagem-carrossel-2 {
-	height: 37.5rem; 
+.imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3{
+	height: 32rem; 
 	object-fit: cover; /*cover - cobre todo o espaço com a imagem*/
-	object-position: 0 40%; /*mexer na posição da imagem 0 está no eixo X e 50 no Y*/
+	object-position: 0 40%; /*mexer na posição da imagem 0 está no eixo X e 50 no Y*/	
 }
 
 /*Principal*/
@@ -99,10 +100,10 @@ body {
   border: solid 1px var(--gray-lighter); 
   border-radius: 4px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);  
-  margin: 1rem auto 1rem 53rem;  
+  margin: 1rem auto 1rem 54rem;  
   transition: background-color 0.25s;
   will-change: background-color; 
-  max-width: 31.25rem;
+  max-width: 22rem;
 }
   
 .titulo-areas {
@@ -141,10 +142,11 @@ details[open] summary:after {
 	box-shadow: 5px 5px 5px #000000; /*sombra da imagem*/		
 	display: block;
 	height: 18.75rem;
+	max-width: 20rem;
 	padding: 0.625rem;
 	opacity: 1;
 	transition: 1s;
-	margin-left: 25rem;		
+	margin-left: 32rem;		
 }
 
 .imagem-areas-atuacao:hover {

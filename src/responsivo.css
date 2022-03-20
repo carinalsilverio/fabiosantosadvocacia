@@ -1,64 +1,31 @@
-/*@media only screen and (min-width: 412px) and (max-width: 914px) {
-    html, body {
-        overflow-x: hidden;
-    }
-    .imagem-areas-atuacao, .imagem-atendimento {
-        max-width: 57.125rem;
-    }
-    .fonte-texto, .imagem-areas-atuacao, .imagem-atendimento {
-        margin-left: 0;     
-}
-    .imagem-areas-atuacao, .imagem-atendimento {
-        max-width: 25rem;
-        margin-left: 10rem;
-        margin-bottom:0;
-}
-}
-    .areas {
-        margin-top: 0;
-        margin-left: -46rem;
-        margin-bottom:0;
-}
-
-    .formulario {
-        width: 50%;
-        margin-left: 4.5rem;
-        margin-top: 0;
-    }
-    .contato-direto {
-        margin-right: 1rem;  
-    
-        
-    }
-    .contato-direto-links {
-        width: auto;
-    }  */  
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
     html, body {
         overflow-x: hidden;
     }  
     
+    .carousel, .slide {
+        width: 100%;
+    }
     .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
         height: 15rem;
+        width:100%;
+        margin: auto;
     }
 
    .imagem-areas-atuacao, .imagem-atendimento {
-        max-width: 57,6875rem;
+        width: 100%;    
+        margin: auto;    
     }  
 
    .fonte-texto, .imagem-areas-atuacao, .imagem-atendimento {
         margin-left: 0;     
     }
 
-    .imagem-areas-atuacao, .imagem-atendimento {
-        max-width: 25rem;
-        margin-left: 12rem;
-    }
     .areas {
-        margin-top: 0;     
-        margin-left: -44rem;
-        margin-bottom: 0;       
+       margin-top: 0;     
+       margin-left: -44rem;
+       margin-bottom: 0;       
     }
     
     .formulario {
@@ -77,6 +44,9 @@
 }
 
 @media only screen and (max-width: 787px) {
+
+    /*Principal*/
+
     html, body {
         overflow-x: hidden;
     }   
@@ -85,17 +55,25 @@
         width: 18rem;
     }
 
-    .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
-        height: 20rem;
+    /*Carrossel*/
+    .carousel, .slide {
+        width: 100%;
     }
+
+    .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
+        height: 18rem;
+        width:100%;
+    }
+
+    /*Áreas de atuação/Atendimento*/
 
    .fonte-texto, .imagem-areas-atuacao, .imagem-atendimento {
         margin-left: 0;             
     }
 
     .imagem-areas-atuacao, .imagem-atendimento {
-        max-width: 20rem;
-        margin-left: 1.7rem;  
+        max-width: 100%;
+        margin: auto; 
     }
 
     .areas {
@@ -108,12 +86,22 @@
         max-width: 19rem;
     }
     
+    /*Equipe*/
+
+    .imagem-equipe {
+        width: 100%;
+    }
+
+    /*Formulário*/
+
     .formulario {
         width: 85%;
         margin-left: 1.5rem;
         margin-top: 0;
-        margin-bottom: 20rem;
+        margin-bottom: 14rem;
     }
+
+    /*Contato Direto*/
 
     .contato-direto {
         width: 80%;
