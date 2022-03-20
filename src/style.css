@@ -86,6 +86,10 @@ body {
 
 /*Áreas de Atuação*/
 
+.areas-de-atuacao {
+	margin-top: 4rem;
+}
+
 .areas {
 	margin-top: -15rem;
 	margin-bottom: 6rem;
@@ -160,7 +164,7 @@ details[open] summary:after {
 .atendimento{
 	/*background: linear-gradient(#888888, #FEFEFE);	*/
 	padding: 3em 0;	
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
 }
 
 .imagem-equipe,.imagem-atendimento {
@@ -169,7 +173,7 @@ details[open] summary:after {
 	height: 18.75rem;
 	margin: auto; 	
 	padding: 0.625rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
 }
 
 /*Equipe*/
@@ -180,6 +184,7 @@ details[open] summary:after {
 .contato {
 	background: linear-gradient(#474545, #d3cbcb);	
 	padding: 1rem 0;	
+	margin-top: 4rem;
 }
 
 .contato-direto {	
