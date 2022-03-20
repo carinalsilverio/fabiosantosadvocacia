@@ -15,7 +15,7 @@
 
     .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
         height: 15rem;
-        width:100%;
+        width: 100%;
         margin: auto;
     }
 
@@ -106,7 +106,7 @@
 
     .areas {
         margin-top: 2rem;     
-        margin-left: -52.5rem;        
+        margin-left: -44rem;        
         margin-bottom: 0;            
     }
 

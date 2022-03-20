@@ -46,7 +46,7 @@ body {
 .fonte-texto {
 	padding: 0.625rem;	
 	max-width: 50rem;
-	margin-left: 25rem;
+	margin: auto;
 	text-align: center;
 }
 
@@ -89,11 +89,12 @@ body {
 
 .areas-de-atuacao {
 	margin-top: 4rem;
+	margin: auto;
 }
 
 .areas {
-	margin-top: -15rem;
-	margin-bottom: 6rem;
+	margin: -15rem auto 6rem 8rem;
+	
 }
 
 .exibir {
@@ -142,11 +143,12 @@ details[open] summary:after {
 	box-shadow: 5px 5px 5px #000000; /*sombra da imagem*/		
 	display: block;
 	max-height: 17.1875rem;
-	max-width: 20rem;
-	padding: 0.625rem;
+	max-width: 20rem;	
 	opacity: 1;
 	transition: 1s;
-	margin-left: 32rem;		
+	margin: auto;	
+	padding: 3em 0;	
+	margin-bottom: 0rem;
 }
 
 .imagem-areas-atuacao:hover {
@@ -246,11 +248,19 @@ footer {
     background-color: #555555;
 	color:#FFF;	
 	font-size: 12px;
-	font-weight: bold;
-    
+	font-weight: bold;    
 	min-height: 100%;
 	position: relative;
     padding: 1.5625rem;
     text-align: center;
 	width: 100%;
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1146px) {
+	.areas {
+		margin-left: -12.5rem;		
+	}
+	.exibir {
+		max-width: 17rem;
+	}
 }
