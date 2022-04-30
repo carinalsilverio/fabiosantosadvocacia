@@ -1,3 +1,14 @@
+@media only screen and (min-width: 980px) and (max-width: 1146px) {
+	.areas {
+		margin: auto;	
+        width: 100%;	
+}
+	
+.exibir {
+    max-width: 25rem;
+    margin-top: 0.5rem;
+}
+}
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
     
@@ -5,144 +16,152 @@
 
     html, body {
         overflow-x: hidden;
-    }  
+}  
     
     /*Carrossel*/
 
     .carousel, .slide {
         width: 100%;
-    }
+}
 
-    .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
-        height: 15rem;
-        width: 100%;
-        margin: auto;
-    }
+.imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
+    height: 15rem;
+    width: 100%;
+    margin: auto;
+}
 
-    /*Areas de Atuação/Atendimento*/
+/*Areas de Atuação/Atendimento*/
 
-   .imagem-areas-atuacao, .imagem-atendimento {
-        width: 100%;    
-        margin: auto;    
-    }  
+.imagem-areas-atuacao, .imagem-atendimento {
+    width: 100%;    
+    margin: auto;    
+}  
 
-   .fonte-texto {
-        margin-left: 0;     
-    }
+.fonte-texto {
+    margin-left: 0;     
+}
 
-    .areas {
-       margin-top: 0;     
-       margin-left: -44rem;
-       margin-bottom: 0;       
-    }
+.areas {
+    margin-top: 0;     
+    margin-left: -44rem;
+    margin-bottom: 0;       
+}
 
-    .exibir {
-        max-width: 30rem;
-    }
+.exibir {
+    max-width: 25rem;    
+    margin-right: 12rem;
+}
 
-     /*Equipe*/
+/*Equipe*/
 
-     .imagem-equipe {
-         margin: auto;
-        width: 100%;
-    }
+.imagem-equipe {
+    margin: auto;
+    width: 100%;
+}
+
+
+/*Formulário*/
+
+.formulario {
+    width: 50%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+/*Contato Direto*/
+
+.contato-direto {
+    margin-right: 0;  
+    margin-top: 0rem;
     
-    /*Formulário*/
-
-    .formulario {
-        width: 50%;
-        margin-left: 0;
-        margin-top: 0;
-    }
-
-    /*Contato Direto*/
-
-    .contato-direto {
-        margin-right: 0;  
-        margin-top: 0rem;
-        
-    }
-    .contato-direto-links {
-        width: auto;
-    }    
+}
+.contato-direto-links {
+    width: auto;
+}    
 }
 
 @media only screen and (max-width: 787px) {
 
-    /*Principal*/
+/*Principal*/
 
-    html, body {
-        overflow-x: hidden;
-    }   
-    
-    .container{
-        width: 18rem;
-    }
-
-    /*Carrossel*/
-    .carousel, .slide {
-        width: 100%;
-    }
-
-    .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
-        height: 18rem;
-        width:100%;
-    }
-
-    /*Áreas de atuação/Atendimento*/
-    
-    .imagem-areas-atuacao {
-        max-height: 16.5rem;
-    }
-
-    .imagem-areas-atuacao, .imagem-atendimento {
-        max-width: 100%;
-        margin: auto; 
-    }
-
-    .fonte-texto {
-        margin-left: 0;             
-    }
-
-    .areas {
-        margin-top: 2rem;     
-        margin-left: -44rem;        
-        margin-bottom: 0;            
-    }
-
-    .exibir {
-        max-width: 19rem;
-    }
-    
-    /*Equipe*/
-
-    .imagem-equipe {
-        width: 100%;
-    }
-
-    /*Formulário*/
-
-    .formulario {
-        width: 85%;
-        margin-left: 1.5rem;
-        margin-top: 0;
-        margin-bottom: 14rem;
-    }
-
-    /*Contato Direto*/
-
-    .contato-direto {
-        width: 80%;
-        margin: 25rem 0 0 2rem;
-        float: left;
-        position: absolute;
+html, body {
+    overflow-x: hidden;
 }   
-    .contato-direto-links {
-        width: auto;
-    } 
+
+.container{
+    width: 18rem;
+}
+
+/*Carrossel*/
+.carousel, .slide {
+    width: 100%;
+}
+
+.imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
+    height: 18rem;
+    width:100%;
+}
+
+/*Áreas de atuação/Atendimento*/
+
+.imagem-areas-atuacao {
+    max-height: 16.5rem;
+}
+
+.imagem-areas-atuacao, .imagem-atendimento {
+    max-width: 100%;
+    margin: auto; 
+}
+
+.fonte-texto {
+    margin-left: 0;             
+}
+
+.areas {
+    margin-top: 2rem;         
+    margin-bottom: 0;            
+}
+
+.exibir {
+    max-width: 20rem;
+    margin-top: 0.5rem;
+}
+
+/*Equipe*/
+
+.imagem-equipe {
+    width: 100%;
+}
+
+.grid-6 {
+    width:100% !important;
+    float: left !important;
     
-    .icones-contato {
-        margin-top: 0;
-    }
+}
+
+/*Formulário*/
+
+.formulario {
+    width: 85%;
+    margin-left: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 14rem;
+}
+
+/*Contato Direto*/
+
+.contato-direto {
+    width: 80%;
+    margin: 30rem 0 0 2rem;
+    float: left;
+    position: absolute;
+}   
+.contato-direto-links {
+    width: auto;
+} 
+
+.icones-contato {
+    margin-top: 0;
+}
 
 }

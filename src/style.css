@@ -8,7 +8,11 @@ body {
 	margin: 0 auto;
 	padding: 0;	
 	background: rgba(29, 130, 255, 0.45);	
-	color: #fff;	
+	color: #fff;
+}
+
+li {
+	list-style-type: none;
 }
 
 /*Nav*/
@@ -51,7 +55,7 @@ body {
 }
 
 .container {
-	padding: 0.0625rem;
+	padding: 0.0625rem !important;
 	margin-top: 1.25rem;	
 }
 
@@ -63,8 +67,7 @@ body {
 
 .card-largura{
 	max-width: 15rem;
-	max-height: 25rem;
-		
+	max-height: 10rem;		
 }
 
 .card-cor-fundo{
@@ -85,57 +88,21 @@ body {
 	width: 3.75rem;
 }
 
+.card-largura:hover {
+	background: #dad7d7;
+	color: #000000;
+	max-height: 25rem;
+}
+
+.cards p {
+	display: none;	
+}
+
+.cards:hover p {
+	display: flex;	
+}
+
 /*Áreas de Atuação*/
-
-.areas-de-atuacao {
-	margin-top: 4rem;
-	margin: auto;
-}
-
-.areas {
-	margin: -15rem auto 6rem 8rem;
-	
-}
-
-.exibir {
-  border: solid 1px var(--gray-lighter); 
-  border-radius: 4px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);  
-  margin: 1rem auto 1rem 54rem;  
-  transition: background-color 0.25s;
-  will-change: background-color; 
-  max-width: 22rem;
-}
-  
-.titulo-areas {
-  cursor: pointer;
-  font-weight: 600;
-  padding: var(--space-sm);
-  position: relative;
-}
-
-summary:after {
-  content: "";
-  color:#5e5d5d;
-  position: absolute;
-  padding: 0.5rem;
-  right: var(--space-sm);
-  transform: translatey(-50%);
-  top: 50%;
-}
-
-details[open] summary:after {
-   content: "";
-   color:#5e5d5d;
-   padding: 0.5rem;	 
-}  
-  
-.description {
-   border-top: var(--gray-light) solid 1px;
-   font-size: 14px;
-   line-height: 1.3125rem;
-   padding: var(--space-sm);
-}
 
 .imagem-areas-atuacao {
 	background: linear-gradient(#888888, #dad7d7);
@@ -153,6 +120,56 @@ details[open] summary:after {
 
 .imagem-areas-atuacao:hover {
 	opacity: 0.3;
+}
+
+.areas-de-atuacao {
+	margin-top: 4rem;
+	margin-bottom: 0;
+}
+
+.areas {
+    margin-top: 2rem;
+}
+
+.exibir {
+	border: solid 1px var(--gray-lighter); 
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);  
+	margin: 1rem auto;  
+	transition: background-color 0.25s;
+	will-change: background-color; 
+	max-width: 35rem;
+	
+}
+
+.titulo-areas {
+	cursor: pointer;
+	font-weight: 600;
+	padding: var(--space-sm);
+	position: relative;
+}
+
+summary:after {
+	content: "";
+	color:#5e5d5d;
+	position: absolute;
+	padding: 0.5rem;
+	right: var(--space-sm);
+	transform: translatey(-50%);
+	top: 50%;
+}
+
+details[open] summary:after {
+content: "";
+color:#5e5d5d;
+padding: 0.5rem;	 
+}  
+
+.description {
+	border-top: var(--gray-light) solid 1px;
+	font-size: 14px;
+	line-height: 1.3125rem;
+	padding: var(--space-sm);
 }
 
 .descricao_areas {
@@ -183,7 +200,28 @@ details[open] summary:after {
 /*Equipe*/
 
 .imagem-equipe {
-	max-width: 25rem;
+	align-items: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;    
+}
+
+.apresentacao-equipe {
+	display: flex;
+    flex-direction: column;    
+    position: relative;
+    margin: 2rem auto;
+    line-height: 1rem;
+    vertical-align: top;
+    width: 100%;
+    align-items: center;
+	
+	
+}
+
+.grid-6 {
+    width: 100%;    
 }
 
 /*Contatos*/
@@ -205,16 +243,16 @@ details[open] summary:after {
 }
 
 .icones-contato {
-  padding: 0.3125rem;
-  margin-top: 1rem;  
-  align-items: center;
-  background-color: #828285;
-  text-decoration: none;
-  width: 2.1875rem;
-  height: 2.1875rem;
-  border-radius: 10px;
-  font-size: 1.5rem;
-  border: 2px solid #888585;  
+	padding: 0.3125rem;
+	margin-top: 1rem;  
+	align-items: center;
+	background-color: #828285;
+	text-decoration: none;
+	width: 2.1875rem;
+	height: 2.1875rem;
+	border-radius: 10px;
+	font-size: 1.5rem;
+	border: 2px solid #888585;  
 }
 
 .icones-contato:hover {
@@ -223,22 +261,43 @@ details[open] summary:after {
 }
 
 .contato-direto-links {
-	padding: 0.0625rem;
+	padding: 0;
 	width: 50%;
 	margin-right: auto;
+	display:flex;
 }
 
 .formulario {	
 	background: linear-gradient(#888888, #b8b5b5);
     display: block;
     margin: 0 auto auto 34%;
-	padding: 0.375rem 0.75rem 0.1rem;
+	padding: 0.375rem 0.75rem 1.5rem;
 	width: 30%;	
 	border-radius: 5px;
 }
 
 .rounded-0 {
 	border-radius: 0.25rem !important;
+}
+
+input[type=submit] {
+	width: 20%;
+	padding: 5px 10px;
+	margin: auto 0  ;
+	border-radius: 5px;
+	border: 1px solid #828285;
+	background: #474545;
+	color: #fff;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	display:flex;
+	position:relative;	
+}
+
+input[type=submit]:hover {	
+	opacity: 0.5;
+	transition: 350ms;
 }
 
 
@@ -256,11 +315,3 @@ footer {
 	width: 100%;
 }
 
-@media only screen and (min-width: 980px) and (max-width: 1146px) {
-	.areas {
-		margin-left: -12.5rem;		
-	}
-	.exibir {
-		max-width: 17rem;
-	}
-}
