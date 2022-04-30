@@ -103,6 +103,13 @@ html, body {
 }
 
 /*Áreas de atuação/Atendimento*/
+.card-largura{
+	max-width: 10rem;	
+}
+
+.card-largura:hover {
+    max-width: 15rem;
+}
 
 .imagem-areas-atuacao {
     max-height: 16.5rem;
