@@ -1,325 +1,304 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fábio Santos Consultoria Jurídica</title>
-    <!--<img src="src/img/logo.png" class="logo" alt="...">-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <!-- Copiado da fonte escolhida do Google Fonts-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--retirado do CSS da documentação do Bootstrap-->
-    <link rel="stylesheet" type="text/css" href="src/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" type="text/css" href="src/responsivo.css">
-    <link rel="stylesheet" type="text/css" href="src/grid.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fábio Santos Consultoria Jurídica</title>
+  <!--<img src="src/img/logo.png" class="logo" alt="...">-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <!-- Copiado da fonte escolhida do Google Fonts-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!--retirado do CSS da documentação do Bootstrap-->
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <link rel="stylesheet" type="text/css" href="src/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" type="text/css" href="src/responsivo.css">
+  <link rel="stylesheet" type="text/css" href="src/grid.css">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!--Menu-->
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <!-- fixed-top - para fixar o menu. Retirado da documentaçãsto Bootrstrap-->
-          <a class="navbar-brand fonte-titulo texto-cor" href="#">FS Advocacia</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-navbar"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="collapse-navbar">
-            <!--justify-content-end = p/ colocar o menu no canto direito da tela. Retirado do Bootstrap-->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#empresa">Empresa</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#atuacao">Atuação</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#atendimento">Atendimento</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#equipe">Equipe</a></li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contato">Contato</a></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+  <!--Menu-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- fixed-top - para fixar o menu. Retirado da documentaçãsto Bootrstrap-->
+      <a class="navbar-brand fonte-titulo texto-cor" href="#">FS Advocacia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapse-navbar">
+        <!--justify-content-end = p/ colocar o menu no canto direito da tela. Retirado do Bootstrap-->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#empresa">Empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#atuacao">Atuação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#atendimento">Atendimento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#equipe">Equipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Carrosel-->
-      <section class="carrossel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-interval="4000" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  <!-- Carrosel-->
+  <section class="carrossel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-interval="4000" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="src/img/img1_carrossel.png" class="d-block w-100 imagem-carrossel-1" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="src/img/img2_carrossel.png" class="d-block w-100 imagem-carrossel-2" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="src/img/img3_carrossel.png" class="d-block w-100 imagem-carrossel-3" alt="...">
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </a>
-          </div>
-        </div>    
-      </section>
-
-        <!--Quem somos-->    
-      <section class="principal" id="título">      
-        <h2 id="empresa" class="text-center fonte-titulo cor pt-5">Fábio Santos Consultoria Jurídica</h2>
-          <p class="fonte-texto text-justify"> A Fábio Santos Consultoria Jurídica, tem como foco uma advocacia moderna, buscando
-            conhecer o cliente de maneira personalizada, para oferecer soluções rápidas e eficazes.
-            O escritório presta assessoria jurídica integral preventiva e consultoria nas mais diversas áreas do direito,
-            uma vez que conta com uma equipe especializada aliada a parcerias em todo território nacional.
-            Quem procura Fábio Santos Advocacia, encontra um aliado estratégico que lhe proporciona segurança jurídica tanto
-            na assessoria preventiva, quanto no contencioso.</p>    
-      </section>
-
-      <!-- Missão, Visão e Valores: Card-->
-      <section>
-        <div class="row justify-content-center">
-            <div class="card estilo-borda card-largura p-0 m-4 col-12 col-md-4 card-cor-fundo cards">
-              <!--col-12 col-md-4 - retirado do Bootstrap - quantidade de linhas/colunas-->
-              <!--p = padding, m = margin-->
-              <img class="card-img-top card-posicao-imagem" src="src/img/missao.png" alt="ícone missão">
-              <div class="card-body">
-                <h3 class="text-center">Missão</h3>
-                <p class="card-text text-center">Garantir excelência em assessoria jurídica e litigiosa, com a aplicação de
-                  técnicas e conhecimentos modernizados, provendo serviço jurídico de alta qualidade em prol dos interesses
-                  dos nossos clientes.</p>
-              </div>
-            </div>
-
-            <div class="card estilo-borda card-largura p-0 m-4 col-12 col-md-4 card-cor-fundo cards">
-              <img class="card-img-top card-posicao-imagem" src="src/img/visao.png" alt="ícone visão">
-              <div class="card-body">
-                <h3 class="text-center">Visão</h3>
-                <p class="card-text text-center">Ser referência de advocacia litigiosa e consultiva, fundamentada na
-                  credibilidade dos serviços profissionais prestados.</p>
-              </div>
-            </div>
-
-            <div class="card estilo-borda card-largura p-0 m-4 col-12 col-md-4 card-cor-fundo cards">
-              <img class="card-img-top card-posicao-imagem" src="src/img/valores.png" alt="ícone valores">
-              <div class="card-body">
-                <h3 class="text-center">Valores</h3>
-                <p class="card-text text-center">• Comprometimento<br>
-                  • Ética Profissional<br>
-                  • Transparência<br>
-                  • Seriedade<br>
-                  • Disciplina<br>
-                  • Criatividade<br>
-                  • Eficiência</p>
-              </div>
-            </div>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="src/img/img1_carrossel.png" class="d-block w-100 imagem-carrossel-1" alt="...">
         </div>
-      </section>  
-
-    <!--Áreas de Atuação-->
-    
-      <section class="areas-de-atuacao" id="atuacao" data-aos="fade-up">
-        <div class="container bg-light"></div>
-        <h2 class="fonte-titulo" id="atuacao">Áreas de Atuação</h2> 
-          <!--Inserir imagem-->
-        <img class="imagem-areas-atuacao" alt="imagem-areas-de-atuacao" src="src/img/imagem01.jpg">   
-
-        <div class="areas"> 
-          <details class="exibir">            
-            <summary class="titulo-areas">Trabalhista</summary>
-                  
-              <div class="description"><b>• Trabalhista Empresarial</b>
-                      <p>Assessoria Preventiva – Auxiliando a pessoa jurídica nas questões inerentes ao uso moderado e legal do
-                      poder diretivo, com o fito de eliminar futuras ações ou minimizar o contencioso trabalhista, atuando na
-                      elaboração e análise de contratos de trabalho, nas relações empregatícias e sindicais, no estudo e
-                      adequação de cargos e salários à luz da legislação posta, e nos processos demissionais.<br>
-                      Contencioso – Atuando no âmbito judicial com acompanhamento de processos e formulando defesa com intuito
-                      de absolver a empresa ou amenizar uma eventual condenação.</p>
-
-                      • <b>Trabalhista Pessoa Física</b>
-                      <p>Orientações à pessoas físicas que se sintam prejudicadas em seus direitos trabalhistas, com as
-                      providências recomendáveis.<br>
-                      Representação das pessoas físicas nas tratativas autorizadas pela reforma trabalhista de 2017, bem como
-                      a confecção de petições junto ao poder judiciário visando à correta quitação do contrato de trabalho.</p>
-              </div>
-          </details>
-
-          <details class="exibir">            
-            <summary class="titulo-areas">Previdenciário</summary>                
-            <div class="description">• Análise contributiva<br>
-              • Requerimento de benefícios previdenciários<br>
-
-              • Justificação administrativa para prova de tempo de serviço<br>
-
-              • Requerimento de Certidão de Tempo de Serviço<br>
-
-              • Pedidos de Revisão de Benefícios<br>
-
-              • Recursos administrativos<br>                 
-            </div>
-          </details>           
-
-          <details class="exibir">            
-            <summary class="titulo-areas">Cívil</summary>                
-            <div class="description"><b>• Família e Sucessões:</b>
-              <p>Inventário e Partilha; Divórcios; Dissolução de União Estável; Alimentos; Ações de Investigação de
-              Paternidade;</p>
-              <b>• Direito Imobiliário:</b>
-              Elaboração de contratos de locação, rescisões contratuais, despejo, cobrança de aluguel, cobrança
-              indevida, etc.
-              <b>• Responsabilidade Civil:</b>
-              Atuando na defesa e na busca da efetiva reparação moral e material, por meio de indenizações de vítimas
-              e familiares.<br>
-              <br><b>• Direito do Consumidor:</b>
-              <p>Ajuizamento de processos de cobrança, cheques sem fundos, duplicatas, promissórias, execuções em geral;
-              Defesas, recursos, embargos, acompanhamento a audiências; Danos morais, físicos, estéticos, materiais;
-              Perdas/atrasos/cancelamentos de voos, extravio/dano/perda de bagagens; Busca e apreensão, reintegração
-              de posse; Retirada de nomes no SERASA, SPC, etc.</p>
-            </div>
-          </details>  
-                
-          <details class="exibir">            
-            <summary class="titulo-areas">Penal</summary>                
-            <div class="description">
-              <p>Atuando na defesa dos interesses de nossos clientes com acompanhamento em Delegacias, Fóruns, Pesquisas e Defesas Criminais. Com atendimento personalizado e 
-                atento as necessidades do cliente, cuidando sempre dos aspectos teóricos e práticos que envolvem uma defesa criminal até o desfecho da causa.</p>
-            </div>
-          </details> 
-        </div>           
-      </section>
-      
-    <!--Atendimento-->
-      <section class="atendimento" id="atendimento" data-aos="fade-left">
-        <div class="container bg-light"></div>
-        <h2 class="fonte-titulo" id="atendimento">Atendimento</h2>
-        <p class="fonte-texto text-justify">Nosso escritório busca atender de maneira eficaz e abrangente os interesses do cliente, seja ele pessoa física ou jurídica, contando com uma equipe multidisciplinar de competência profissional reconhecida.
-        </p>
-        <img class="atendimento imagem-atendimento" alt="imagem-atendimento" src="src/img/imagem-atendimento.jpg">
-      </section>
-
-    <!--Equipe-->
-      <section class="equipe" id="equipe" data-aos="fade-right">
-        <div class="container bg-light"></div>
-          <h2 class="fonte-titulo">Equipe</h2>
-          <p class="fonte-texto">Conheça Fábio Santos e advogados parceiros</p>   
-          <img class="equipe imagem-equipe" alt="foto-equipe" src="src/img/foto02.jpg">
-        <div class="apresentacao-equipe">
-          <p>Fábio Oliveira Santos</p>
-          <p>OAB-SC XXXX</p>
-          <P>Formação:</P>
-          <ul>
-            <li>
-              Bacharel em Direito
-            </li>
-          </ul>
-          <ul>
-            <li>
-              Pós Graduado em Direito Trabalhista
-            </li>
-          </ul>       
-          <ul>
-            <li>
-              Pós Graduado em Direito Penal
-            </li>
-          </ul>
-          <ul>
-            <li>
-              Mestrado em Recuperação Judicial
-            </li>
-          </ul>
+        <div class="carousel-item">
+          <img src="src/img/img2_carrossel.png" class="d-block w-100 imagem-carrossel-2" alt="...">
         </div>
-      </section>
-
-    <!--Contato-->
-      <section class="contato">
-        <h2 class="fonte-titulo" id="contato">Entre em Contato</h2>
-        <p class="fonte-texto">Entre em contato e agende um atendimento presencial com um de nossos profissionais</p>
-        <div class="contato-direto">      
-          <p>e-mail:</p>
-          <p>fabiosantosadv8@gmail.com</p><br>
-          <p>Telefone:</p>
-          <p>(48) 99929-7760</p> <br>
-          <p>Contatos Diretos:</p>
-          <ul class="contato-direto-links">
-            <li>
-              <a href="https://api.whatsapp.com/send?phone=5548999297760&text=Olá!" target="_blank" class="p-2"></a> <img class="icones-contato" alt="ícone whatsapp"
-              src="src/img/icone-whatsapp.png">
-            </li>
-            <li>
-              <a href="https://www.facebook.com/fabio.oliver.96930" target="_blank" class="p-2"></a> <img class="icones-contato" alt="ícone facebook"
-              src="src/img/icone-facebook.png">
-            </li>
-            <li>
-              <a href="https://www.instagram.com/advocacia.fs/?hl=pt-br" target="_blank" class="p-2"></a> <img class="icones-contato" alt="ícone instagram"
-              src="src/img/icone-instagram.png">
-            </li>
-            <li>
-              <a href="https://twitter.com/FbioSan09278764" target="_blank" class="p-2"></a> <img class="icones-contato" alt="ícone twitter"
-              src="src/img/icone-twitter.png">
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/fábio-santos-b666568b" target="_blank" class="p-2"></a> <img class="icones-contato" alt="ícone linkedin"
-              src="src/img/icone-linkedin.png"> <!--target="_blank" class="p-2" serve para abrir o link em uma nova grui na web-->
-            </li>
-          </ul>
+        <div class="carousel-item">
+          <img src="src/img/img3_carrossel.png" class="d-block w-100 imagem-carrossel-3" alt="...">
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
-        <form class="formulario">
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Endereço de e-mail</label>
-            <input type="email" class="form-control" id="e-mail" placeholder="nome@exemplo.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Nome</label>
-            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">     
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect2">Mensagem</label>
-            <textarea name="message" cols="30" rows="5" class="form-control p-3 rounded-0" id="message"
-              placeholder="Digite sua mensagem"></textarea>
-          </div> 
-          <input type="submit" value="Enviar">       
-        </form>          
-      </section>
+  <!--Quem somos-->
+  <section class="principal" id="título">
+    <h2 id="empresa" class="text-center fonte-titulo cor pt-5">Fábio Santos Consultoria Jurídica</h2>
+    <p class="fonte-texto text-justify"> A Fábio Santos Consultoria Jurídica, tem como foco uma advocacia moderna, buscando
+      conhecer o cliente de maneira personalizada, para oferecer soluções rápidas e eficazes.
+      O escritório presta assessoria jurídica integral preventiva e consultoria nas mais diversas áreas do direito,
+      uma vez que conta com uma equipe especializada aliada a parcerias em todo território nacional.
+      Quem procura Fábio Santos Advocacia, encontra um aliado estratégico que lhe proporciona segurança jurídica.</p>
+  </section>
 
-    <!--Rodapé-->
-    <section>
-      <footer>
-        &copy; 2022 Fábio Santos. Todos os direitos reservados.
-      </footer>
-    </section>
+  <!-- Missão, Visão e Valores: Card-->
+  <section>
+    <div class="row">
+      <div class="card card-largura p-0 m-4 col-12 col-md-4 card-cor-fundo cards">
+        <!--col-12 col-md-4 - retirado do Bootstrap - quantidade de linhas/colunas-->
+        <!--p = padding, m = margin-->
+        <img class="card-img-top card-posicao-imagem" src="src/img/missao.png" alt="ícone missão">
+        <div class="card-body">
+          <h3 class="text-center">Missão</h3>
+          <p class="card-text text-center">Garantir excelência em assessoria jurídica e litigiosa, com a aplicação de
+            técnicas e conhecimentos modernizados, provendo serviço jurídico de alta qualidade em prol dos interesses
+            dos nossos clientes.</p>
+        </div>
+      </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-      </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"></script>
-      <script src="src/script.js"></script> 
-    <!--retirado do JS da documentação do Bootstrap-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <div class="card card-largura p-0 m-4 col-12 col-md-4 card-cor-fundo cards">
+        <img class="card-img-top card-posicao-imagem" src="src/img/visao.png" alt="ícone visão">
+        <div class="card-body">
+          <h3 class="text-center">Visão</h3>
+          <p class="card-text text-center">Ser referência de advocacia litigiosa e consultiva, fundamentada na
+            credibilidade dos serviços profissionais prestados.</p>
+        </div>
+      </div>
+
+      <div class="card card-largura p-0 m-4 col-12 col-md-4 card-cor-fundo cards">
+        <img class="card-img-top card-posicao-imagem" src="src/img/valores.png" alt="ícone valores">
+        <div class="card-body">
+          <h3 class="text-center">Valores</h3>
+          <p class="card-text text-center">• Comprometimento<br>
+            • Ética Profissional<br>
+            • Transparência<br>
+            • Seriedade<br>
+            • Disciplina<br>
+            • Criatividade<br>
+            • Eficiência</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Áreas de Atuação-->
+
+  <section class="areas-de-atuacao" id="atuacao" data-aos="fade-up">
+    <div class="container bg-light"></div>
+    <h2 class="fonte-titulo" id="atuacao">Áreas de Atuação</h2>
+    <!--Inserir imagem-->
+    <img class="imagem-areas-atuacao" alt="imagem-areas-de-atuacao" src="src/img/imagem01.jpg">
+
+    <div class="areas">
+      <details class="exibir">
+        <summary class="titulo-areas">Trabalhista</summary>
+
+        <div class="description"><b>• Trabalhista Empresarial</b>
+          <p>Assessoria Preventiva – Auxiliando a pessoa jurídica nas questões inerentes ao uso moderado e legal do
+            poder diretivo, com o fito de eliminar futuras ações ou minimizar o contencioso trabalhista, atuando na
+            elaboração e análise de contratos de trabalho, nas relações empregatícias e sindicais, no estudo e
+            adequação de cargos e salários à luz da legislação posta, e nos processos demissionais.<br>
+            Contencioso – Atuando no âmbito judicial com acompanhamento de processos e formulando defesa com intuito
+            de absolver a empresa ou amenizar uma eventual condenação.</p>
+
+          • <b>Trabalhista Pessoa Física</b>
+          <p>Orientações à pessoas físicas que se sintam prejudicadas em seus direitos trabalhistas, com as
+            providências recomendáveis.<br>
+            Representação das pessoas físicas nas tratativas autorizadas pela reforma trabalhista de 2017, bem como
+            a confecção de petições junto ao poder judiciário visando à correta quitação do contrato de trabalho.</p>
+        </div>
+      </details>
+
+      <details class="exibir">
+        <summary class="titulo-areas">Previdenciário</summary>
+        <div class="description">• Análise contributiva<br>
+          • Requerimento de benefícios previdenciários<br>
+
+          • Justificação administrativa para prova de tempo de serviço<br>
+
+          • Requerimento de Certidão de Tempo de Serviço<br>
+
+          • Pedidos de Revisão de Benefícios<br>
+
+          • Recursos administrativos<br>
+        </div>
+      </details>
+
+      <details class="exibir">
+        <summary class="titulo-areas">Cívil</summary>
+        <div class="description"><b>• Família e Sucessões:</b>
+          <p>Inventário e Partilha; Divórcios; Dissolução de União Estável; Alimentos; Ações de Investigação de
+            Paternidade;</p>
+          <b>• Direito Imobiliário:</b>
+          Elaboração de contratos de locação, rescisões contratuais, despejo, cobrança de aluguel, cobrança
+          indevida, etc.
+          <b>• Responsabilidade Civil:</b>
+          Atuando na defesa e na busca da efetiva reparação moral e material, por meio de indenizações de vítimas
+          e familiares.<br>
+          <br><b>• Direito do Consumidor:</b>
+          <p>Ajuizamento de processos de cobrança, cheques sem fundos, duplicatas, promissórias, execuções em geral;
+            Defesas, recursos, embargos, acompanhamento a audiências; Danos morais, físicos, estéticos, materiais;
+            Perdas/atrasos/cancelamentos de voos, extravio/dano/perda de bagagens; Busca e apreensão, reintegração
+            de posse; Retirada de nomes no SERASA, SPC, etc.</p>
+        </div>
+      </details>
+
+      <details class="exibir">
+        <summary class="titulo-areas">Penal</summary>
+        <div class="description">
+          <p>Atuando na defesa dos interesses de nossos clientes com acompanhamento em Delegacias, Fóruns, Pesquisas e Defesas Criminais. Com atendimento personalizado e
+            atento as necessidades do cliente, cuidando sempre dos aspectos teóricos e práticos que envolvem uma defesa criminal até o desfecho da causa.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!--Atendimento-->
+  <section class="atendimento" id="atendimento" data-aos="fade-left">
+    <div class="container bg-light"></div>
+    <h2 class="fonte-titulo" id="atendimento">Atendimento</h2>
+    <p class="fonte-texto text-justify">Nosso escritório busca atender de maneira eficaz e abrangente os interesses do cliente, seja ele pessoa física ou jurídica, contando com uma equipe multidisciplinar de competência profissional reconhecida.
+    </p>
+    <img class="atendimento imagem-atendimento" alt="imagem-atendimento" src="src/img/imagem-atendimento.jpg">
+  </section>
+
+  <!--Equipe-->
+  <section class="equipe" id="equipe" data-aos="fade-right">
+    <div class="container bg-light"></div>
+    <h2 class="fonte-titulo">Formação Profissional</h2>
+    <img class="equipe imagem-equipe" alt="foto-equipe" src="src/img/foto02.jpg">
+    <div class="apresentacao-equipe">
+      <h4>Fábio Oliveira Santos</h4>
+      <p>Graduado em Direito pela Universidade do Sul de Santa Catarina - UNISUL, Pós-graduado em Direito
+        e Processo do Trabalho pela Faculdade DAMÁSIO DE JESUS, em Direito Penal,
+        e Direito Civil pelo Centro Universitário Leonardo da Vinci - UNIASSELVI, com Mestrado
+        em Direito Empresarial (LLM) pela Fundação Getúlio Vargas – FGV/Rio, inscrito na Ordem dos
+        Advogados do Brasil com a OAB/SC 34.739.</p>
+
+    </div>
+  </section>
+
+  <!--Contato-->
+  <section class="contato">
+    <h2 class="fonte-titulo" id="contato">Entre em Contato</h2>
+    <p class="fonte-texto">Entre em contato e agende um atendimento presencial com um de nossos profissionais</p>
+    <div class="contato-direto">
+      <p>e-mail:</p>
+      <p>fabiosantosadv8@gmail.com</p><br>
+      <p>Telefone:</p>
+      <p>(48) 99929-7760</p> <br>
+      <p>Contatos Diretos:</p>
+      <ul class="contato-direto-links">
+
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=5548999297760&text= Fábio Santos Advocacia agradece o seu contato. Como podemos ajudar?" target="_blank" class="p-2"> <img class="icones-contato" alt="ícone whatsapp" src="src/img/icone-whatsapp.png"></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/fabio.oliver.96930" target="_blank" class="p-2"><img class="icones-contato" alt="ícone facebook" src="src/img/icone-facebook.png"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/advocacia.fs/?hl=pt-br" target="_blank" class="p-2"><img class="icones-contato" alt="ícone instagram" src="src/img/icone-instagram.png"></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/FbioSan09278764" target="_blank" class="p-2"><img class="icones-contato" alt="ícone twitter" src="src/img/icone-twitter.png"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/fábio-santos-b666568b" target="_blank" class="p-2"><img class="icones-contato" alt="ícone linkedin" src="src/img/icone-linkedin.png"></a>
+          <!--target="_blank" class="p-2" serve para abrir o link em uma nova grui na web-->
+        </li>
+      </ul>
+    </div>
+
+    <form class="formulario">
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Endereço de e-mail</label>
+        <input type="email" class="form-control" id="e-mail" placeholder="nome@exemplo.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect2">Mensagem</label>
+        <textarea name="message" cols="30" rows="5" class="form-control p-3 rounded-0" id="message" placeholder="Digite sua mensagem"></textarea>
+      </div>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <!--Rodapé-->
+  <section>
+    <footer>
+      &copy; 2022 Fábio Santos. Todos os direitos reservados.
+    </footer>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="src/script.js"></script>
+  <!--retirado do JS da documentação do Bootstrap-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
       duration: 1000,
     });
   </script>
-  </body>
+</body>
+
 </html>
