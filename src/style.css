@@ -137,17 +137,16 @@ li {
 /*Áreas de Atuação*/
 
 .imagem-areas-atuacao {
-	background: linear-gradient(#888888, #dad7d7);
-	border-radius: 10%;
-	box-shadow: 5px 5px 5px #000000; /*sombra da imagem*/		
-	display: block;
-	max-height: 18.75rem;
-	max-width: 30rem;	
-	opacity: 1;
-	transition: 1s;
-	margin: auto;	
-	padding: 3em 0;	
-	margin-bottom: 0rem;
+	/*background: linear-gradient(#888888, #dad7d7);*/
+	border-radius: 40px;
+	/*box-shadow: 5px 5px 5px #000000; /*sombra da imagem*/		
+	border-radius: 32px;
+    display: block;
+    max-height: 18.75rem;
+    margin: auto;
+    padding: 0.625rem;
+    margin-bottom: 0rem;
+    max-width: 30rem;
 }
 
 .imagem-areas-atuacao:hover {
