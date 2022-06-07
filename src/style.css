@@ -22,11 +22,13 @@ li {
 /*Nav*/
 
 .navbar-light .navbar-brand {
-    color: #FDFDFF;
+  color: #FDFDFF;
+	font-family: 'Permanent Marker', cursive;
+	font-style: italic;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #FDFDFF;
+  color: #FDFDFF;
 }
 
 .logo {
@@ -73,8 +75,8 @@ li {
 /*Cards*/
 .row {
 	justify-content: center;
-		margin-bottom: 0;
-    padding-top: 3em;
+	margin-bottom: 0;
+  padding-top: 3em;
 }
 
 .card {
@@ -141,12 +143,12 @@ li {
 	border-radius: 40px;
 	/*box-shadow: 5px 5px 5px #000000; /*sombra da imagem*/		
 	border-radius: 32px;
-    display: block;
-    max-height: 18.75rem;
-    margin: auto;
-    padding: 0.625rem;
-    margin-bottom: 0rem;
-    max-width: 30rem;
+  display: block;
+  max-height: 18.75rem;
+  margin: auto;
+  padding: 0.625rem;
+  margin-bottom: 0rem;
+  max-width: 30rem;
 }
 
 .imagem-areas-atuacao:hover {
@@ -160,7 +162,7 @@ li {
 }
 
 .areas {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .exibir {
@@ -193,9 +195,9 @@ summary:after {
 }
 
 details[open] summary:after {
-content: "";
-color:#5e5d5d;
-padding: 0.5rem;	 
+	content: "";
+	color:#5e5d5d;
+	padding: 0.5rem;	 
 }  
 
 .description {
@@ -220,7 +222,7 @@ padding: 0.5rem;
 /*Atendimento*/
 
 .atendimento{
-	padding: 3em 0;	
+	padding: 0 3em 3em 3em;	
 	margin-bottom: 0rem;
 }
 
@@ -244,16 +246,15 @@ padding: 0.5rem;
 	display:block;    
 }
 
-.apresentacao-equipe {
-	
-		display: flex;
-    flex-direction: column;    
-    position: relative;
-    margin: 2rem auto;
-    line-height: 1rem;
-    vertical-align: top;
-    width: 100%;
-    align-items: center;
+.apresentacao-equipe {	
+	display: flex;
+  flex-direction: column;    
+  position: relative;
+  margin: 2rem auto;
+  line-height: 1rem;
+  vertical-align: top;
+  width: 100%;
+  align-items: center;
 }
 .apresentacao-equipe p{
 	text-align: justify!important;	
@@ -266,7 +267,7 @@ padding: 0.5rem;
 }
 
 .grid-6 {
-    width: 100%;    
+  width: 100%;    
 }
 
 /*Contatos*/
@@ -353,7 +354,7 @@ input[type=submit]:hover {
 /*Rodapé*/
 
 footer {
-    background-color: #393D3F;
+  background-color: #393D3F;
 	color:#FDFDFF;	
 	font-size: 12px;
 	font-weight: bold;    
