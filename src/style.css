@@ -23,8 +23,7 @@ li {
 .navbar-dark .navbar-brand {
   color: #FDFDFF;
 	font-family: 'Permanent Marker', cursive;
-	font-style: italic;
-	font-size: 18px;
+	font-style: italic;	
 }
 
 .navbar-dark .navbar-nav .nav-link {
