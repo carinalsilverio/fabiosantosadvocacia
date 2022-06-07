@@ -59,7 +59,6 @@
     width: 100%;
 }
 
-
 /*Formulário*/
 
 .formulario {
@@ -88,6 +87,10 @@ html, body {
     overflow-x: hidden;
 }   
 
+.navbar-brand {
+    margin-left: -1.5rem;
+}
+
 .container{
     width: 18rem;
 }
@@ -103,12 +106,18 @@ html, body {
 }
 
 /*Áreas de atuação/Atendimento*/
+
+.row {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
 .card-largura{
-	max-width: 10rem;	
+	max-width: 5rem;   	
 }
 
 .card-largura:hover {
-    max-width: 15rem;
+    max-width: 12rem;
 }
 
 .imagem-areas-atuacao {
@@ -147,6 +156,11 @@ html, body {
 }
 
 /*Formulário*/
+
+/*Contato*/
+.fonte-texto {
+    text-align: left;
+}
 
 .formulario {
     width: 85%;
