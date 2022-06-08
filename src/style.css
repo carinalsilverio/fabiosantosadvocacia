@@ -28,8 +28,13 @@ li {
 
 .navbar-dark .navbar-nav .nav-link {
   color: #FDFDFF;
+	font-weight: 600;
 }
 
+.logo {
+	width: 14px;
+	height: 14px;
+}
 /*Carrossel*/
 
 .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3{
