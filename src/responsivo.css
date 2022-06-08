@@ -1,8 +1,8 @@
 @media only screen and (min-width: 980px) and (max-width: 1146px) {
 /*Navbar-brand->logo*/
 .navbar-brand img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 	.areas {
@@ -26,8 +26,8 @@
 
 /*Navbar-brand->logo*/
 .navbar-brand img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
     
     /*Carrossel*/
@@ -104,8 +104,8 @@ html, body {
 }
 
 .navbar-brand img {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
 }
 
 .container{
