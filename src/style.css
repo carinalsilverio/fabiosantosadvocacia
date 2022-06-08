@@ -26,6 +26,10 @@ li {
 	font-style: italic;	
 }
 
+.navbar-brand img {
+	width: 120px;
+	height:120px;
+}
 .navbar-dark .navbar-nav .nav-link {
   color: #FDFDFF;
 	font-weight: 600;

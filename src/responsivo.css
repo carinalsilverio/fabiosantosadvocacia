@@ -1,4 +1,10 @@
 @media only screen and (min-width: 980px) and (max-width: 1146px) {
+/*Navbar-brand->logo*/
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+}
+
 	.areas {
 		margin: auto;	
         width: 100%;	
@@ -17,6 +23,12 @@
     html, body {
         overflow-x: hidden;
 }  
+
+/*Navbar-brand->logo*/
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+}
     
     /*Carrossel*/
 
@@ -82,13 +94,18 @@
 @media only screen and (max-width: 787px) {
 
 /*Principal*/
-
 html, body {
     overflow-x: hidden;
 }   
 
+/*Navbar-brand->logo*/
 .navbar-brand {
     margin-left: -1.5rem;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
 }
 
 .container{
