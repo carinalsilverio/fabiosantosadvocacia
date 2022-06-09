@@ -12,6 +12,7 @@ body {
 
 p {
 	font-size: 18px;
+	text-align: left;
 }
 
 li {
@@ -61,7 +62,6 @@ li {
 	padding: 0.625rem;	
 	max-width: 50rem;
 	margin: auto;
-	text-align: center;
 }
 
 .container {
@@ -141,9 +141,7 @@ li {
 
 /*Áreas de Atuação*/
 
-.imagem-areas-atuacao {
-	/*background: linear-gradient(#888888, #dad7d7);*/
-	/*box-shadow: 5px 5px 5px #000000; /*sombra da imagem*/		
+.imagem-areas-atuacao {			
 	border-radius: 32px;
   display: block;
   max-height: 18.75rem;
@@ -253,8 +251,7 @@ details[open] summary:after {
   width: 100%;
   align-items: center;
 }
-.apresentacao-equipe p{
-	text-align: justify!important;	
+.apresentacao-equipe p{	
 	max-width: 50rem;
 	padding: 0.625rem;
 	line-height:1.5rem;
