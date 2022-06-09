@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fábio Santos Consultoria Jurídica</title>
+  <link rel="shortcut icon" href="src/img/icones/logo.ico">
   <!--<img src="src/img/logo.png" class="logo" alt="...">-->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <!-- Copiado da fonte escolhida do Google Fonts-->
@@ -23,7 +24,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <!-- fixed-top - para fixar o menu. Retirado da documentaçãsto Bootrstrap-->
-      <a class="navbar-brand fonte-titulo texto-cor" href="#"><img src="src/img/icones/logo.png" alt=""> </a>
+      <a class="navbar-brand fonte-titulo texto-cor" href="#"><img src="src/img/logo/logo.png" alt="img-logo"> </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -241,9 +242,8 @@
       <p>(48) 99929-7760</p> <br>
       <p>Contatos Diretos:</p>
       <ul class="contato-direto-links">
-
         <li>
-          <a href="https://api.whatsapp.com/send?phone=5548999297760&text= Fábio Santos Advocacia agradece o seu contato. Como podemos ajudar?" target="_blank" class="p-2"> <img class="icones-contato" alt="ícone whatsapp" src="src/img/icones/icone-whatsapp.png"></a>
+          <a href="https://api.whatsapp.com/send?phone=5548999297760" target="_blank" class="p-2"> <img class="icones-contato" alt="ícone whatsapp" src="src/img/icones/icone-whatsapp.png" text="Fábio Santos Advocacia agradece o seu contato. Como podemos ajudar?"></a>
         </li>
         <li>
           <a href="https://www.facebook.com/fabio.oliver.96930" target="_blank" class="p-2"><img class="icones-contato" alt="ícone facebook" src="src/img/icones/icone-facebook.png"></a>
@@ -261,14 +261,17 @@
       </ul>
     </div>
 
-    <form class="formulario">
+    <!--Formulário-->
+    <form action="https://api.staticforms.xyz/submit" method="POST" class="formulario">
       <div class="form-group">
-        <label for="exampleFormControlInput1">Endereço de e-mail</label>
-        <input type="email" class="form-control" id="e-mail" placeholder="nome@exemplo.com">
+        <input type="hidden" name="accessKey" value="d6a6be5f-4bfb-47ad-9308-5011deb6c540">
+        <input type="hidden" name="redirectTo" value="https://carinalsilverio.github.io/fabiosantosadvocacia/">
+        <label for="exampleFormControlSelect1">Nome</label>
+        <input type="text" class="form-control" id="nome" name="name" placeholder="Digite seu nome completo">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Nome</label>
-        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+        <label for="exampleFormControlInput1">Endereço de e-mail</label>
+        <input type="email" class="form-control" id="e-mail" name="email" placeholder="nome@exemplo.com">
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect2">Mensagem</label>

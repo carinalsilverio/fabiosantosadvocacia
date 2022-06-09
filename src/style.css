@@ -84,7 +84,7 @@ li {
 
 .card {
 	border-color: #000000;
-	border-radius: 10px;
+	border-radius: 10px;	
 }
 
 .card-body {
@@ -122,7 +122,7 @@ li {
 	background: #FDFDFF;
 	color: #000000;
 	max-height: 25rem;
-	max-width: 12.5rem;
+	max-width: 12.5rem;	
 }
 .card-text:last-child {
 	margin-bottom: 0;
@@ -132,7 +132,7 @@ li {
 }
 
 .cards p {
-	display: none;	
+	display: none;		
 }
 
 .cards:hover p {
