@@ -307,7 +307,7 @@ details[open] summary:after {
 	margin-right: auto;
 	display:flex;
 }
-
+/*Formulário*/
 .formulario {	
 	background: /*linear-gradient(#888888, #b8b5b5);*/#395F7B;
   display: block;

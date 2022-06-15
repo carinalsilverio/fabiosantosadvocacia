@@ -17,3 +17,14 @@ function scrollToIdOnClick(event) {
     behavior: 'smooth',
   });
 }
+
+/*Confirmação envio de mensagem*/
+
+function enviado() {
+  swal({
+    title: 'Mensagem Enviada com Sucesso!',
+    text: 'Agradecemos o contato!',
+    icon: 'success',
+    button: 'Aww yiss!',    
+  });
+}
