@@ -36,6 +36,10 @@ li {
 	font-weight: 600;
 }
 
+.navbar-nav {
+	margin-right: 2rem;
+}
+
 .logo {
 	width: 14px;
 	height: 14px;
@@ -308,6 +312,7 @@ details[open] summary:after {
 	display:flex;
 }
 /*Formulário*/
+
 .formulario {	
 	background: /*linear-gradient(#888888, #b8b5b5);*/#395F7B;
   display: block;
@@ -319,10 +324,20 @@ details[open] summary:after {
 
 .form-group {
 	color: #FDFDFF;
+	position: relative;
+}
+
+.form-group label {
+	display:inline-block;
 }
 
 .rounded-0 {
 	border-radius: 0.25rem !important;
+}
+
+.form-group input {
+	outline: 0;
+  display: block;
 }
 
 input[type=submit] {
@@ -344,6 +359,45 @@ input[type=submit]:hover {
 	opacity: 0.5;
 	transition: 350ms;
 }
+
+/*Simulação dos inputs error e success(início)*/
+.form-group.success input {
+	border: 3px solid #4eca64;
+}
+
+.form-group.error input {
+	border: 3px solid #DB5a5a;
+}
+
+.form-group.error i.img-erro {
+	visibility: visible;
+}
+
+.form-group.success i.img-sucesso {
+	visibility: visible;
+}
+
+.form-group.error small{
+	color: #DB5A5A;
+	visibility: visible;
+}
+
+.form-group i {
+	position: absolute;
+	top: 40px;
+	right: 10px;
+	visibility: hidden;
+}
+
+.form-group small {
+	visibility: hidden;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	font-size: 14px;
+
+}
+
+/*Simulação dos inputs error e success(fim)*/
 
 /*Rodapé*/
 

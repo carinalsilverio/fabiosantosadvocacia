@@ -262,16 +262,22 @@
     </div>
 
     <!--Formulário-->
-    <form action="https://api.staticforms.xyz/submit" method="POST" class="formulario">
+    <form action="https://api.staticforms.xyz/submit" method="POST" class="formulario" id="form">
       <div class="form-group">
         <input type="hidden" name="accessKey" value="d6a6be5f-4bfb-47ad-9308-5011deb6c540">
         <input type="hidden" name="redirectTo" value="https://carinalsilverio.github.io/fabiosantosadvocacia/">
-        <label for="exampleFormControlSelect1">Nome</label>
-        <input type="text" class="form-control" id="nome" name="name" placeholder="Digite seu nome completo">
+        <label for="username">Nome</label>
+        <input type="text" class="form-control" id="username" name="name" placeholder="Digite seu nome completo">
+        <i class="img-sucesso"><img src="/src/img/icones/success-icon.svg" alt="icone-sucesso"></i>
+        <i class="img-erro"><img src="/src/img/icones/error-icon.svg" alt="icone-erro"></i>
+        <small>Error Message</small>
       </div>
       <div class="form-group">
-        <label for="exampleFormControlInput1">Endereço de e-mail</label>
-        <input type="email" class="form-control" id="e-mail" name="email" placeholder="nome@exemplo.com">
+        <label>Endereço de e-mail</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com">
+        <i class="img-sucesso"><img src="/src/img/icones/success-icon.svg" alt="icone-sucesso"></i>
+        <i class="img-erro"><img src="/src/img/icones/error-icon.svg" alt="icone-erro"></i>
+        <small>Error Message</small>
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect2">Mensagem</label>
@@ -281,6 +287,32 @@
         <input type="submit" value="Enviar" onclick="enviado()">
       </div>
     </form>
+
+    <!-- <form class="formulario" id="form">
+      <div class="form-group ">
+
+        <label for="username">Nome</label>
+        <input type="text" class="form-control" id="username" placeholder="Digite seu nome completo">
+        <i class="img-sucesso"><img src="/src/img/icones/success-icon.svg" alt="icone-sucesso"></i>
+        <i class="img-erro"><img src="/src/img/icones/error-icon.svg" alt="icone-erro"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-group ">
+        <label>Endereço de e-mail</label>
+        <input type="email" class="form-control" id="email"  placeholder="nome@exemplo.com">
+        <i class="img-sucesso"><img src="/src/img/icones/success-icon.svg" alt="icone-sucesso"></i>
+        <i class="img-erro"><img src="/src/img/icones/error-icon.svg" alt="icone-erro"></i>
+        <small>Error Message</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect2">Mensagem</label>
+        <textarea name="message" cols="30" rows="5" class="form-control p-3 rounded-0" id="message" placeholder="Digite sua mensagem"></textarea>
+      </div>
+      <div id="botaoenviar">
+        <input type="submit" value="Enviar" onclick="enviado()">
+      </div>
+    </form> -->
+
   </section>
 
   <!--Rodapé-->
