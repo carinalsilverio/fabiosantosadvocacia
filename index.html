@@ -5,6 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fábio Santos Consultoria Jurídica</title>
+  <meta name="description" content="Fábio Santos, tem como
+  foco uma advocacia moderna, buscando
+  conhecer o cliente de maneira personalizada,
+  para oferecer soluções rápidas e eficazes.">
+  <meta name="keywords" content="Fábio Santos, advocacia preventiva, advocacia trabalista, advocacia previdenciária, advocacia cívil, advogados Florianópolis">
   <link rel="shortcut icon" href="src/img/icones/logo.ico">
   <!--<img src="src/img/logo.png" class="logo" alt="...">-->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -12,7 +17,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <!--retirado do CSS da documentação do Bootstrap-->
   <link rel="stylesheet" type="text/css" href="src/style.css">
-
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" type="text/css" href="src/responsivo.css">
   <link rel="stylesheet" type="text/css" href="src/grid.css">
@@ -262,57 +266,32 @@
     </div>
 
     <!--Formulário-->
-    <form action="https://api.staticforms.xyz/submit" method="POST" class="formulario" id="form">
+    <form action="https://formsubmit.co/carinalsilverio@gmail.com" method="POST" class="formulario" id="form">
       <div class="form-group">
-        <input type="hidden" name="accessKey" value="d6a6be5f-4bfb-47ad-9308-5011deb6c540">
-        <input type="hidden" name="redirectTo" value="https://carinalsilverio.github.io/fabiosantosadvocacia/">
+        <!-- <input type="hidden" name="accessKey" value="d6a6be5f-4bfb-47ad-9308-5011deb6c540">
+        <input type="hidden" name="redirectTo" value="https://carinalsilverio.github.io/fabiosantosadvocacia/"> -->
         <label for="username">Nome</label>
-        <input type="text" class="form-control" id="username" name="name" placeholder="Digite seu nome completo">
-        <i class="img-sucesso"><img src="/src/img/icones/success-icon.png" width="20px" alt="icone-sucesso"></i>
+        <input type="text" class="form-control" id="username" name="name" placeholder="Digite seu nome completo" required>
+        <!-- <i class="img-sucesso"><img src="/src/img/icones/success-icon.png" width="20px" alt="icone-sucesso"></i>
         <i class="img-erro"><img src="/src/img/icones/error-icon.png" width="20px" alt="icone-erro"></i>
-        <small>Error Message</small>
+        <small>Error Message</small> -->
       </div>
       <div class="form-group">
         <label>Endereço de e-mail</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com">
-        <i class="img-sucesso"><img src="/src/img/icones/success-icon.png" width="20px" alt="icone-sucesso"></i>
+        <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com" required>
+        <!-- <i class="img-sucesso"><img src="/src/img/icones/success-icon.png" width="20px" alt="icone-sucesso"></i>
         <i class="img-erro"><img src="/src/img/icones/error-icon.png" width="20px" alt="icone-erro"></i>
-        <small>Error Message</small>
+        <small>Error Message</small> -->
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect2">Mensagem</label>
-        <textarea name="message" cols="30" rows="5" class="form-control p-3 rounded-0" id="message" placeholder="Digite sua mensagem"></textarea>
+        <textarea name="message" cols="30" rows="5" class="form-control p-3 rounded-0" id="message" placeholder="Digite sua mensagem" required></textarea>
       </div>
       <div id="botaoenviar">
-        <input type="submit" value="Enviar" onclick="enviado(setSuccessFor)">
+        <input type="submit" value="Enviar"></input>
       </div>
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
     </form>
-
-    <!-- <form class="formulario" id="form">
-      <div class="form-group ">
-
-        <label for="username">Nome</label>
-        <input type="text" class="form-control" id="username" placeholder="Digite seu nome completo">
-        <i class="img-sucesso"><img src="/src/img/icones/success-icon.svg" alt="icone-sucesso"></i>
-        <i class="img-erro"><img src="/src/img/icones/error-icon.svg" alt="icone-erro"></i>
-        <small>Error Message</small>
-      </div>
-      <div class="form-group ">
-        <label>Endereço de e-mail</label>
-        <input type="email" class="form-control" id="email"  placeholder="nome@exemplo.com">
-        <i class="img-sucesso"><img src="/src/img/icones/success-icon.svg" alt="icone-sucesso"></i>
-        <i class="img-erro"><img src="/src/img/icones/error-icon.svg" alt="icone-erro"></i>
-        <small>Error Message</small>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect2">Mensagem</label>
-        <textarea name="message" cols="30" rows="5" class="form-control p-3 rounded-0" id="message" placeholder="Digite sua mensagem"></textarea>
-      </div>
-      <div id="botaoenviar">
-        <input type="submit" value="Enviar" onclick="enviado()">
-      </div>
-    </form> -->
-
   </section>
 
   <!--Rodapé-->
@@ -324,6 +303,9 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="src/script.js"></script>

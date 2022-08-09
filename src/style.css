@@ -360,7 +360,12 @@ input[type=submit]:hover {
 	transition: 350ms;
 }
 
-/*Simulação dos inputs error e success(início)*/
+input[type=submit]:active {	
+	opacity: 1;
+	transition: 100ms;
+}
+
+/* Simulação dos inputs error e success(início)
 .form-group.success input {
 	border: 3px solid #4eca64;
 }
@@ -395,7 +400,7 @@ input[type=submit]:hover {
 	margin-bottom: 50px;
 	font-size: 14px;
 
-}
+} */
 
 /*Simulação dos inputs error e success(fim)*/
 
