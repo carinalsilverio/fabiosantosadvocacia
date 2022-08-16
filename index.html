@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+<header>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fábio Santos Consultoria Jurídica</title>
@@ -11,50 +11,31 @@
   para oferecer soluções rápidas e eficazes.">
   <meta name="keywords" content="Fábio Santos, advocacia preventiva, advocacia trabalista, advocacia previdenciária, advocacia cívil, advogados Florianópolis">
   <link rel="shortcut icon" href="src/img/icones/logo.ico">
-  <!--<img src="src/img/logo.png" class="logo" alt="...">-->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-  <!-- Copiado da fonte escolhida do Google Fonts-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <!--retirado do CSS da documentação do Bootstrap-->
+  <!-- Copiado da fonte escolhida do Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="src/style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" type="text/css" href="src/responsivo.css">
   <link rel="stylesheet" type="text/css" href="src/grid.css">
-
-</head>
+</header>
 
 <body>
   <!--Menu-->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <!-- fixed-top - para fixar o menu. Retirado da documentaçãsto Bootrstrap-->
-      <a class="navbar-brand fonte-titulo texto-cor" href="#"><img src="src/img/logo/logo.png" alt="img-logo"> </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <header id="header">
+    <a class="navbar-brand fonte-titulo texto-cor" href="#"><img src="src/img/logo/logo.png" alt="img-logo"> </a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="collapse-navbar">
-        <!--justify-content-end = p/ colocar o menu no canto direito da tela. Retirado do Bootstrap-->
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#empresa">Empresa</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#atuacao">Atuação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#atendimento">Atendimento</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#equipe">Equipe</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contato">Contato</a>
-          </li>
-        </ul>
-      </div>
+      <ul id="menu" role="menu">
+        <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+        <li><a href="#empresa">Empresa</a></li>
+        <li><a href="#atuacao">Atuação</a></li>
+        <li><a href="#atendimento">Atendimento</a></li>
+        <li><a href="#equipe">Equipe</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -103,8 +84,6 @@
   <section>
     <div class="row">
       <div class="card card-largura p-0 m-4 col-12 col-md-4 card-cor-fundo cards">
-        <!--col-12 col-md-4 - retirado do Bootstrap - quantidade de linhas/colunas-->
-        <!--p = padding, m = margin-->
         <img class="card-img-top card-posicao-imagem" src="src/img/icones/missao.png" alt="ícone missão">
         <div class="card-body">
           <h3 class="text-center">Missão</h3>
@@ -140,17 +119,15 @@
   </section>
 
   <!--Áreas de Atuação-->
-
   <section class="areas-de-atuacao" id="atuacao" data-aos="fade-up">
     <div class="container bg-light"></div>
     <h2 class="fonte-titulo" id="atuacao">Áreas de Atuação</h2>
+
     <!--Inserir imagem-->
     <img class="imagem-areas-atuacao" alt="imagem-areas-de-atuacao" src="src/img/imagem-atuacao.png">
-
     <div class="areas">
       <details class="exibir">
         <summary class="titulo-areas">Trabalhista</summary>
-
         <div class="description"><b>• Trabalhista Empresarial</b>
           <p>Assessoria Preventiva – Auxiliando a pessoa jurídica nas questões inerentes ao uso moderado e legal do
             poder diretivo, com o fito de eliminar futuras ações ou minimizar o contencioso trabalhista, atuando na
@@ -158,7 +135,6 @@
             adequação de cargos e salários à luz da legislação posta, e nos processos demissionais.<br>
             Contencioso – Atuando no âmbito judicial com acompanhamento de processos e formulando defesa com intuito
             de absolver a empresa ou amenizar uma eventual condenação.</p>
-
           • <b>Trabalhista Pessoa Física</b>
           <p>Orientações à pessoas físicas que se sintam prejudicadas em seus direitos trabalhistas, com as
             providências recomendáveis.<br>
@@ -166,7 +142,6 @@
             a confecção de petições junto ao poder judiciário visando à correta quitação do contrato de trabalho.</p>
         </div>
       </details>
-
       <details class="exibir">
         <summary class="titulo-areas">Previdenciário</summary>
         <div class="description">• Análise contributiva<br>
@@ -181,7 +156,6 @@
           • Recursos administrativos<br>
         </div>
       </details>
-
       <details class="exibir">
         <summary class="titulo-areas">Cívil</summary>
         <div class="description"><b>• Família e Sucessões:</b>
@@ -200,7 +174,6 @@
             de posse; Retirada de nomes no SERASA, SPC, etc.</p>
         </div>
       </details>
-
       <details class="exibir">
         <summary class="titulo-areas">Penal</summary>
         <div class="description">
@@ -260,7 +233,6 @@
         </li>
         <li>
           <a href="https://www.linkedin.com/in/fábio-santos-b666568b" target="_blank" class="p-2"><img class="icones-contato" alt="ícone linkedin" src="src/img/icones/icone-linkedin.png"></a>
-          <!--target="_blank" class="p-2" serve para abrir o link em uma nova grui na web-->
         </li>
       </ul>
     </div>
@@ -268,30 +240,20 @@
     <!--Formulário-->
     <form action="https://formsubmit.co/carinalsilverio@gmail.com" method="POST" class="formulario" id="form">
       <div class="form-group">
-        <!-- <input type="hidden" name="accessKey" value="d6a6be5f-4bfb-47ad-9308-5011deb6c540">
-        <input type="hidden" name="redirectTo" value="https://carinalsilverio.github.io/fabiosantosadvocacia/"> -->
         <label for="username">Nome</label>
         <input type="text" class="form-control" id="username" name="name" placeholder="Digite seu nome completo" required>
-        <!-- <i class="img-sucesso"><img src="/src/img/icones/success-icon.png" width="20px" alt="icone-sucesso"></i>
-        <i class="img-erro"><img src="/src/img/icones/error-icon.png" width="20px" alt="icone-erro"></i>
-        <small>Error Message</small> -->
       </div>
       <div class="form-group">
         <label>Endereço de e-mail</label>
         <input type="email" class="form-control" id="email" name="email" placeholder="nome@exemplo.com" required>
-        <!-- <i class="img-sucesso"><img src="/src/img/icones/success-icon.png" width="20px" alt="icone-sucesso"></i>
-        <i class="img-erro"><img src="/src/img/icones/error-icon.png" width="20px" alt="icone-erro"></i>
-        <small>Error Message</small> -->
       </div>
       <div class="form-group">
         <label for="exampleFormControlSelect2">Mensagem</label>
         <textarea name="message" cols="30" rows="5" class="form-control p-3 rounded-0" id="message" placeholder="Digite sua mensagem" required></textarea>
       </div>
-      <div id="botaoenviar">
-        <input type="submit" value="Enviar"></input>
-      </div>
+      <button class="save-btn">Enviar</button>
       <input type="hidden" name="_next" value="https://carinalsilverio.github.io/fabiosantosadvocacia/">
-    </form>
+      </div>
   </section>
 
   <!--Rodapé-->
@@ -303,9 +265,7 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="src/script.js"></script>
