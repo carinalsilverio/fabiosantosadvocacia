@@ -44,8 +44,7 @@
 
 /*Areas de Atuação/Atendimento*/
 
-.imagem-areas-atuacao, .imagem-atendimento {
-    width: 100%;    
+.imagem-areas-atuacao, .imagem-atendimento {    
     margin: auto;    
 }  
 
@@ -141,8 +140,7 @@ html, body {
     max-height: 16.5rem;
 }
 
-.imagem-areas-atuacao, .imagem-atendimento {
-    max-width: 100%;
+.imagem-areas-atuacao, .imagem-atendimento {  
     margin: auto; 
 }
 
@@ -219,7 +217,7 @@ html, body {
     #nav.active #menu {
     height: auto;
     visibility: visible;
-    overflow-y: none;  
+    overflow-y: hidden;  
     padding-bottom: 2.5rem;  
     }
     #menu a {

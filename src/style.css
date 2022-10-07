@@ -184,6 +184,9 @@ a {
 /*Áreas de Atuação*/
 .imagem-areas-atuacao {			
 	border-radius: 32px;
+	background: #395F7B;
+box-shadow:  17px 17px 34px #172631,
+	-17px -17px 34px #5b98c5;
   display: block;
   max-height: 18.75rem;
 	max-width: 30rem;
@@ -263,8 +266,12 @@ details[open] summary:after {
 
 .imagem-atendimento, .imagem-equipe {
 	border-radius: 32px;
+	border: none;
+	background: #395F7B;
+box-shadow:  17px 17px 34px #172631,
+             -17px -17px 34px #5b98c5;
 	display: block;
-	max-height: 18.75rem;
+	max-height: 24rem;	
 	max-width: 30rem;
 	margin: auto; 	
 	padding: 0.625rem;
