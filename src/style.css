@@ -96,6 +96,7 @@ a {
 	font-weight: bolder;
 	font-weight: 200;
 	padding: 1.25rem;	
+	margin-top: 1rem;
 	text-align: center;	
 }
 
@@ -181,28 +182,28 @@ a {
 	display: flex;		
 }
 
-/*Áreas de Atuação*/
-.imagem-areas-atuacao {			
-	border-radius: 32px;
-	background: #395F7B;
-box-shadow:  17px 17px 34px #172631,
-	-17px -17px 34px #5b98c5;
-  display: block;
-  max-height: 18.75rem;
-	max-width: 30rem;
-  margin: auto;
-  padding: 0.625rem;
-  margin-bottom: 0rem;  
-}
-
 .areas-de-atuacao {
 	margin-bottom: 0;
   padding: 3em 0;
 	font-size: 20px;
+	width: 100%;
 }
 
 .areas {
   margin-top: 2rem;
+}
+
+.imagem-atendimento, .imagem-equipe, .imagem-areas-atuacao {
+	border-radius: 32px;
+	border: none;
+	background: #395F7B;
+	box-shadow:  17px 17px 34px #172631,
+	-17px -17px 34px #5b98c5;
+	display: block;
+	max-height: 24rem;	
+	max-width: 30rem;
+	margin: 2rem auto 0 auto; 	
+	padding: 0.625rem;	
 }
 
 .exibir {
@@ -262,30 +263,16 @@ details[open] summary:after {
 /*Atendimento*/
 .atendimento{
 	padding-bottom: 3rem;	
-}
-
-.imagem-atendimento, .imagem-equipe {
-	border-radius: 32px;
-	border: none;
-	background: #395F7B;
-box-shadow:  17px 17px 34px #172631,
-             -17px -17px 34px #5b98c5;
-	display: block;
-	max-height: 24rem;	
-	max-width: 30rem;
-	margin: auto; 	
-	padding: 0.625rem;
-	margin-bottom: 0rem;	
-}
-
-/*Equipe*/
-.imagem-equipe {
-	align-items: center;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	display:block;    
 }
+
+.atendimento img, .equipe img {
+	margin-bottom: 2rem;
+}
+
+/*Equipe*/
 
 .apresentacao-equipe {	
 	display: flex;
@@ -304,10 +291,6 @@ box-shadow:  17px 17px 34px #172631,
 }
 .apresentacao-equipe ul li {
 	list-style: disc;	
-}
-
-.grid-6 {
-  width: 100%;    
 }
 
 /*Contatos*/

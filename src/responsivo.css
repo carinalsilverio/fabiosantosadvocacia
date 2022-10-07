@@ -5,9 +5,9 @@
     height: 90px;
 }
 
-	.areas {
-		margin: auto;	
-        width: 100%;	
+.areas {
+    margin: 2.5rem auto 0;	
+    width: 100%;	
 }
 	
 .exibir {
@@ -18,10 +18,10 @@
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
     
-    /*Principal*/
+/*Principal*/
 
-    html, body {
-        overflow-x: hidden;
+html, body {
+    overflow-x: hidden;
 }  
 
 /*Navbar-brand->logo*/
@@ -33,7 +33,7 @@
     /*Carrossel*/
 
     .carousel, .slide {
-        width: 100%;
+    width: 100%;
 }
 
 .imagem-carrossel-1, .imagem-carrossel-2, .imagem-carrossel-3 {
@@ -44,9 +44,9 @@
 
 /*Areas de Atuação/Atendimento*/
 
-.imagem-areas-atuacao, .imagem-atendimento {    
+/* .imagem-areas-atuacao, .imagem-atendimento {    
     margin: auto;    
-}  
+}   */
 
 .fonte-texto {
     margin-left: 0;     
@@ -65,7 +65,7 @@
 
 /*Equipe*/
 
-.imagem-equipe {
+.imagem-equipe, .imagem-atendimento, .imagem-areas-atuacao {
     margin: auto;
     width: 100%;
 }
@@ -136,13 +136,13 @@ html, body {
     max-width: 12rem;
 }
 
-.imagem-areas-atuacao {
+/* .imagem-areas-atuacao {
     max-height: 16.5rem;
-}
+} */
 
-.imagem-areas-atuacao, .imagem-atendimento {  
+/* .imagem-areas-atuacao, .imagem-atendimento {  
     margin: auto; 
-}
+} */
 
 .fonte-texto {
     margin-left: 0;             
@@ -160,7 +160,7 @@ html, body {
 
 /*Equipe*/
 
-.imagem-equipe {
+.imagem-equipe, .imagem-atendimento, .imagem-areas-atuacao{
     width: 100%;
 }
 
