@@ -56,3 +56,51 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+// Opacidade Header - Scroll
+
+var div = $('#header');
+$(window).scroll(function () {
+  if ($(document).scrollTop() > 1000) {
+    var percent =
+      $(document).scrollTop() / ($(document).height() - $(window).height());
+    div.css('opacity', 1 - percent);
+  } else {
+    div.css('opacity', 1);
+  }
+});
+
+// Botão topo Scroll Suave
+
+const scrollAnima = document.querySelector('[data-anima=scroll]');
+
+const metadeWindow = window.innerHeight * 5.0;
+
+function animarScroll() {
+  const topoItem = scrollAnima.getBoundingClientRect().top;
+  const itemVisivel = topoItem - metadeWindow < 0;
+  if (itemVisivel) {
+    scrollAnima.classList.add('show-button');
+  } else {
+    scrollAnima.classList.remove('show-button');
+  }
+}
+
+window.addEventListener('scroll', animarScroll);
+
+/* Scroll Suave Botão-Topo */
+const linkInterno = document.querySelectorAll(
+  '[data-scroll= "suave"] a[href^="#"]',
+);
+
+function ScrollTop(event) {
+  event.preventDefault();
+  const href = event.currentTarget.getAttribute('href');
+  const ancora = document.querySelector(href);
+  ancora.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+  });
+}
+
+linkInterno.addEventListener('click', ScrollTop);
