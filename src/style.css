@@ -48,7 +48,7 @@ li {
 
 #menu a {
   display: block;
-  padding: 0.5rem;
+  padding: 0.8rem;
 	text-decoration: none;	
 	color: #FDFDFD;
 	text-decoration: none;
@@ -59,9 +59,9 @@ li {
 
 #menu a:hover{
 	border-radius: 2px;
-	background-color: #395F7B;
-	color: #393D3F;
-	opacity: 1;
+	background-color: #172631;
+	/* color: #393D3F; */
+	opacity: 0.5;
 }
 
 #btn-mobile {
@@ -296,57 +296,20 @@ details[open] summary:after {
 	
 }
 
-/*Contatos*/
-.contato {
+
+/*Formulário*/
+
+.form {
 	background: #2c3e50;
 	color: #FDFDFD;
 	padding: 1rem 0;	
 	margin-top: 4rem;
 }
 
-.contato-direto {	
-	display: block;
-	float: right; 
-	line-height: 1rem; 
-  margin-top: 5rem;
-	padding-left: 1rem;	
-	width: 45%;
-	margin-right: auto;	
-}
-
-.contato-direto p {
-	margin: 1rem 0;
-}
-
-.contato-direto e-mail, phone, address {	
-	margin: 1rem 0;
-}
-
-.icones-contato {	
-	margin-top: 1rem;  
-	align-items: center;	
-	text-decoration: none;
-	width: 1.5rem;
-	height: 1.5rem;	
-	cursor: pointer;	
-}
-
-.icones-contato:hover {
-	transform: translateY(-2px);
-	opacity: 0.5;
-}
-
-.contato-direto-links {
-	padding: 0 0 0.5rem;
-	max-width: 25%;
-	display: flex;
-}
-
-/*Formulário*/
 .formulario {	
 	background:#395F7B;
   display: grid;
-  margin: 0 auto auto 30%;
+  margin: 2rem auto 2rem;
 	padding: 1.5rem;
 	max-width: 30rem;
 	border-radius: 5px;
@@ -415,7 +378,7 @@ details[open] summary:after {
 
 /*Footer*/
 footer {
-  background-color: #2c3e50;
+  background-color: #172631;
 	color:#FDFDFD;	
 	font-size: 14px;	
 	min-height: 100%;
@@ -423,6 +386,44 @@ footer {
   padding: 1.5625rem;
   text-align: center;
 	width: 100%;
+	box-shadow:  10px 10px 30px #5b98c5,
+	-10px -10px 30px #2c3e50; 
+}
+
+/*Contatos*/
+/* .contato {
+	background: #2c3e50;
+	color: #FDFDFD;
+	padding: 1rem 0;	
+} */
+
+.contato-direto {	
+	display: flex;
+	flex-direction: column;	
+	line-height: 1rem;  
+	margin-right: auto;	
+	margin-left: auto;	
+	justify-content:center;
+	align-items: center;
+}
+
+.icones-contato {	
+	margin-top: 1rem;  
+	align-items: center;	
+	text-decoration: none;
+	width: 1.5rem;
+	height: 1.5rem;	
+	cursor: pointer;	
+}
+
+.icones-contato:hover {
+	transform: translateY(-2px);
+	opacity: 0.5;
+}
+
+.contato-direto-links {
+	padding: 0 0 0.5rem;
+	display: flex;
 }
 
 .link-topo {
