@@ -390,11 +390,6 @@ footer {
 }
 
 /*Contatos*/
-.form p {
-	display: flex;
-	justify-content: center;
-	align-items: center;	
-}
 
 .contato-direto {	
 	display: flex;
