@@ -292,7 +292,7 @@ details[open] summary:after {
 	height: 2rem;
 }
 .apresentacao-equipe ul{
-	list-style-image: url("/src/img/icones/icone-tribunal.png");	
+	list-style-image: url("./img/icones/icone-tribunal.png");	
 	
 }
 
