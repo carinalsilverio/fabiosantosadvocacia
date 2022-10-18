@@ -3,7 +3,11 @@ body {
 	margin: 0 auto;
 	padding: 0;	
 	background: #395F7B;	
-	color: #FDFDFD;	
+	color: #FDFDFD;		
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 p {
@@ -436,12 +440,14 @@ footer {
 	width: 50px;		
 	transition: .4s all;
 }
+
 .show-button .link-topo {
 	right: 20px;
-	transition: .4s all;
+	transition: .4s all;	
 }
 
 .copy {
 	border-top: 1px solid #FDFDFD;
+	font-size: 12px;
 }
 

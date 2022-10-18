@@ -139,6 +139,12 @@ html, body {
 
 .imagem-equipe, .imagem-atendimento, .imagem-areas-atuacao{
     width: 100%;
+    height: 100%;
+}
+
+.imagem-equipe {
+    max-height: 18rem;
+    max-width: 18rem;
 }
 
 .grid-6 {
@@ -258,7 +264,15 @@ html, body {
         margin: 0;
     
     }
+    .link-topo {
+        width: 40px;
+        height: 40px;
+    }
+    .show-button .link-topo {
+        right: 3px;	
+    }
 }
-   
+
+
 
 
