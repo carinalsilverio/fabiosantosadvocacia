@@ -59,11 +59,9 @@ html, body {
 
 /*Formulário*/
 
-/* .formulario {
-    width: 50%;
-    margin-left: 0;
-    margin-top: 0;
-} */
+.formulario {
+    max-width: 25rem;  
+}
 
 /*Contato Direto*/
 
@@ -151,11 +149,9 @@ html, body {
     text-align: justify;   
 } */
 
-/* .formulario {
-    width: 85%;
-    margin: 0 auto 16rem auto;
-    margin-top: 0;   
-} */
+.formulario {
+    max-width: 25rem;  
+}
 
 /*Contato Direto*/
 
@@ -253,6 +249,11 @@ html, body {
     .carrossel {
         margin: 0;    
     }
+
+    .formulario {
+        max-width: 25rem;  
+    }
+    
   
     .link-topo {
         width: 30px;
