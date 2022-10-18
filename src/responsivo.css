@@ -71,11 +71,11 @@ html, body {
     margin-right: 0;  
     margin-top: 0rem;
     
-}
-.contato-direto-links {
+} */
+/* .contato-direto-links {
     width: auto;
-}    
-} 
+}     */
+}
 
 @media only screen and (max-width: 787px) {
 
@@ -147,9 +147,9 @@ html, body {
 /*Formulário*/
 
 /*Contato*/
-.contato p {
+/* .contato p {
     text-align: justify;   
-}
+} */
 
 /* .formulario {
     width: 85%;
@@ -164,8 +164,8 @@ html, body {
     margin: 30rem 0 0 2rem;
     float: left;
     position: absolute;
-} 
-.contato-direto p{
+}  */
+/* .contato-direto p{
     margin-top: 0.5rem;
 } */
 
@@ -253,14 +253,12 @@ html, body {
     .carrossel {
         margin: 0;    
     }
-    .apresentacao-equipe ul {
-        margin: 1rem 1rem 0 1rem;
-    }
+  
     .link-topo {
         width: 30px;
         height: 30px;
     }
-    .show-button {
+    .show-button .link-topo {
         right: 3px;	
     }
 }
