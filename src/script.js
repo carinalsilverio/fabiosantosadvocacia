@@ -74,7 +74,7 @@ $(window).scroll(function () {
 
 const scrollAnima = document.querySelector('[data-anima=scroll]');
 
-const metadeWindow = window.innerHeight * .0;
+const metadeWindow = window.innerHeight * 4.0;
 
 function animarScroll() {
   const topoItem = scrollAnima.getBoundingClientRect().top;
