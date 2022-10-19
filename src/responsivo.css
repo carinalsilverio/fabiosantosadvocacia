@@ -223,6 +223,11 @@ html, body {
     margin: 0;    
 }
 
+.imagem-atendimento,.imagem-areas-atuacao {	
+	max-height: 22rem;	
+	max-width: 22rem;	
+}
+
 .formulario {
     max-width: 20rem;  
 }    
