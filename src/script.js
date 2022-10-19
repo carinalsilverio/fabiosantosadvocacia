@@ -70,7 +70,7 @@ $(window).scroll(function () {
   }
 });
 
-// Botão Votlar ao Topo 
+// Botão Votlar ao Topo
 
 const scrollAnima = document.querySelector('[data-anima=scroll]');
 
@@ -87,4 +87,3 @@ function animarScroll() {
 }
 
 window.addEventListener('scroll', animarScroll);
-

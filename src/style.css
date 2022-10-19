@@ -188,10 +188,13 @@ li {
 	background: #395F7B;
 	box-shadow:  10px 10px 30px #172631,
 	-10px -10px 30px #5b98c5;
-	display: block;
-	max-height: 24rem;	
-	max-width: 30rem;
+	display: block;	
 	margin: 2rem auto 0 auto; 
+}
+
+.imagem-atendimento,.imagem-areas-atuacao {	
+	max-height: 25rem;	
+	max-width: 25rem;	
 }
 
 .exibir {
