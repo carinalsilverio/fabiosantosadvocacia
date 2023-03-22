@@ -275,10 +275,10 @@ details[open] summary:after {
   align-items: center;
 }
 .imagem-equipe{
-	border-radius: 50%;
+	border-radius: 10%;
 	width: 20rem;
-	height: 20rem;
-}
+	height: 19rem;
+} 
 
 .apresentacao-equipe ul {
 	margin: 1rem 0 0 2rem;
